@@ -1,4 +1,4 @@
-package com.emids.bookshop;
+package com.emids.domain;
 
 public class Bookshelf {
 
