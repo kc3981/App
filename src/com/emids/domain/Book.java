@@ -1,25 +1,25 @@
 package com.emids.domain;
 
 public class Book {
-	String name;
-	int id;
-	double price;
-	String BookAuthor;
+	private String name;
+	private int id;
+	private double price;
+	private String bookAuthor;
 
-	public Book(String name, int id, double price, String BookAuthor) {
+	public Book(String name, int id, double price, String bookAuthor) {
 
 		this.name = name;
 		this.id = id;
 		this.price = price;
-		this.BookAuthor = BookAuthor;
+		this.bookAuthor = bookAuthor;
 	}
 
 	public String getBookAuthor() {
-		return BookAuthor;
+		return bookAuthor;
 	}
 
 	public void setBookAuthor(String bookAuthor) {
-		BookAuthor = bookAuthor;
+		bookAuthor = bookAuthor;
 	}
 
 	public String getName() {
